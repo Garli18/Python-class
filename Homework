@@ -1,0 +1,38 @@
+#age = 15
+
+#if(age >= 18):
+ #   print("eligible")
+#elif(age < 0):
+#    print("invalid age")
+#elif(age == 0):
+ #   print("age can't be zero")
+#else:
+  #  print("NOT ELIGIBLE")
+#print ("1.find maximum between two numbers.")
+# print ("num1 = ")
+# print ("num2 = ")
+# num1 = int(input("Enter num1 value: "))
+# num2 = int(input("Enter num2 value: "))
+
+# if (num1 > num2):
+#         print("Maximum number is:", num1)
+# elif (num2 > num1):
+#         print("Minmum number is:", num2)
+# else:
+#         print("Both numbers are equal")
+# print ("2. find maximum between three numbers.")
+# a = int(input("Enter a value: "))
+# b = int(input("Enter b value: "))
+# c = int(input("Enter c value: "))
+# if (a > b)and (a > c):
+#        print("Maximum number is:", a)
+# elif (b > a) and (b > c):
+#     print("Maximum number is:", b)
+# else:
+#      print("Maximum number is:", c)
+print ("3.check whether a year is leap year or not.")
+a = int(input("Enter a value: "))
+if (a % 4 == 0 and a % 400 == 0) or (a % 100 != 0):
+    print("Leap year")
+else:
+    print("Not leap year")
